@@ -2696,6 +2696,21 @@ address span strong {
   color: #333;
 }
 
+/* carousel slider */
+.slick-slider {
+  padding: 0;
+}
+
+.slick-slide {
+  padding: 0 8px;
+  height: 100%;
+}
+
+.slick-next::before,
+.slick-prev::before {
+  color: #0d0c22 !important;
+}
+
 /* border */
 
 /* ------------------------------ */
@@ -13167,6 +13182,11 @@ a.read_more i {
   box-shadow: 5px 25px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
 .img-fullwidth {
   width: 100%;
   height: auto;
@@ -13223,6 +13243,9 @@ a.read_more i {
 
 .nft_coll_info {
   padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nft_coll h4 {
@@ -16713,4 +16736,44 @@ img {
 
 .no-cursor {
   cursor: not-allowed;
+}
+
+/* skeleton loading states */
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  60% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #e0e0e0 0, #f5f5f5 25%, #e0e0e0 50%);
+  background-size: 200% 100%;
+  animation: shimmer 2.5s infinite linear;
+}
+
+.img-skeleton {
+  height: 200px;
+}
+
+.author-skeleton {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.hot_collection_title_skeleton {
+  width: 50%;
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+.hot_collection_code_skeleton {
+  width: 25%;
+  height: 20px;
 }
