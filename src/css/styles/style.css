@@ -16805,3 +16805,19 @@ img {
   width: 15%;
   height: 15px;
 }
+
+.top-sellers_pp_skeleton {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.top-sellers_name_skeleton {
+  width: 50%;
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+.top-sellers_price_skeleton {
+  width: 25%;
+  height: 15px;
+}
