@@ -16777,3 +16777,31 @@ img {
   width: 25%;
   height: 20px;
 }
+
+.new-items_author_skeleton {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.new-items_title_skeleton {
+  width: 70%;
+  height: 30px;
+  margin-top: 4px;
+}
+
+.nft__item_info_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.new-items_price_skeleton {
+  width: 40%;
+  height: 20px;
+  margin-top: 8px;
+}
+
+.new-items_like_skeleton {
+  width: 15%;
+  height: 15px;
+}
