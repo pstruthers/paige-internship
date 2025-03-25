@@ -16821,3 +16821,37 @@ img {
   width: 25%;
   height: 15px;
 }
+
+.profile_avatar_skeleton {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile_name_skeleton {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.author_name_skeleton {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 8px;
+}
+
+.author_tag_skeleton {
+  width: 150px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+.author_address_skeleton {
+  width: 250px;
+  height: 20px;
+}
+
+.profile_follower_skeleton {
+  width: 200px;
+  height: 40px;
+}

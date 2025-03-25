@@ -60,6 +60,7 @@ const ExploreItems = () => {
               style={{ display: "block", backgroundSize: "cover" }}
             >
               <ItemCard
+                authorId={exploreItem.authorId}
                 authorImage={exploreItem.authorImage}
                 expiryDate={exploreItem.expiryDate}
                 nftImage={exploreItem.nftImage}

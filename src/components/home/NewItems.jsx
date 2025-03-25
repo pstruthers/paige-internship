@@ -70,6 +70,7 @@ const NewItems = () => {
                 : newItems.map((newItem) => (
                     <ItemCard
                       key={newItem.id}
+                      authorId={newItem.authorId}
                       authorImage={newItem.authorImage}
                       expiryDate={newItem.expiryDate}
                       nftImage={newItem.nftImage}

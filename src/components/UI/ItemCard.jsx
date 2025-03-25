@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import CountdownTimer from "../CountdownTimer";
 
 const ItemCard = ({
+  authorId,
   authorImage,
   expiryDate,
   nftImage,
@@ -12,7 +13,7 @@ const ItemCard = ({
   return (
     <div className="nft__item">
       <div className="author_list_pp">
-        <Link to="/author" data-bs-toggle="tooltip" data-bs-placement="top">
+        <Link to={`/author/${authorId}`} data-bs-toggle="tooltip" data-bs-placement="top">
           <img className="lazy" src={authorImage} alt="" />
           <i className="fa fa-check"></i>
         </Link>
