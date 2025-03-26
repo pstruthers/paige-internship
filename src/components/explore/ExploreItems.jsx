@@ -63,6 +63,7 @@ const ExploreItems = () => {
                 authorId={exploreItem.authorId}
                 authorImage={exploreItem.authorImage}
                 expiryDate={exploreItem.expiryDate}
+                nftId={exploreItem.nftId}
                 nftImage={exploreItem.nftImage}
                 title={exploreItem.title}
                 price={exploreItem.price}
