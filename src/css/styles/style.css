@@ -16778,7 +16778,7 @@ img {
   height: 20px;
 }
 
-.new-items_author_skeleton {
+.nft-author-skeleton {
   height: 50px;
   border-radius: 50%;
 }
@@ -16854,4 +16854,37 @@ img {
 .profile_follower_skeleton {
   width: 200px;
   height: 40px;
+}
+
+.nft-image-skeleton {
+  height: 636px;
+}
+
+.nft-title-skeleton {
+  width: 75%;
+  height: 45px;
+}
+
+.item_info_counts_skeleton {
+  height: 30px;
+  margin-top: 8px;
+}
+
+.nft-description-skeleton {
+  height: 80px;
+  margin-bottom: 8px;
+}
+
+.nft-author-name-skeleton {
+  width: 100px;
+  height: 20px;
+}
+
+.creator-skeleton {
+  margin-top: 8px;
+}
+
+.nft-price-skeleton {
+  width: 20%;
+  height: 35px;
 }

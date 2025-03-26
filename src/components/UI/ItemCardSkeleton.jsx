@@ -2,7 +2,7 @@ const ItemCardSkeleton = () => {
 	return (
     <div className="nft__item">
       <div className="author_list_pp">
-        <div className="lazy new-items_author_skeleton skeleton" />
+        <div className="lazy nft-author-skeleton skeleton" />
         <i className="fa fa-check"></i>
       </div>
       <div className="nft__item_wrap skeleton" />

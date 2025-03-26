@@ -73,6 +73,7 @@ const NewItems = () => {
                       authorId={newItem.authorId}
                       authorImage={newItem.authorImage}
                       expiryDate={newItem.expiryDate}
+                      nftId={newItem.nftId}
                       nftImage={newItem.nftImage}
                       title={newItem.title}
                       price={newItem.price}
