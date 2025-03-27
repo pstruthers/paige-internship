@@ -3,6 +3,11 @@ import axios from "axios";
 import ItemCard from "../UI/ItemCard";
 import ItemCardSkeleton from "../UI/ItemCardSkeleton";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const ExploreItems = () => {
   const [exploreItems, setExploreItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -48,7 +53,8 @@ const ExploreItems = () => {
             <div
               key={index}
               className="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12"
-              style={{ display: "block", backgroundSize: "cover" }}
+            style={{ display: "block", backgroundSize: "cover" }}
+            data-aos="fade-in" data-aos-duration="1000"
             >
               <ItemCardSkeleton />
             </div>
