@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const TopSellers = () => {
   const [topSellers, setTopSellers] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -21,7 +26,14 @@ const TopSellers = () => {
   return (
     <section id="section-popular" className="pb-5">
       <div className="container">
-        <div className="row">
+        <div
+          data-aos="fade-in"
+          data-aos-offset="100"
+          data-aos-delay="100"
+          data-aos-duration="500"
+          data-aos-once="true"
+          className="row"
+        >
           <div className="col-lg-12">
             <div className="text-center">
               <h2>Top Sellers</h2>
